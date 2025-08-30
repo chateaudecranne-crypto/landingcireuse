@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Location Cireuse CIR 22 – Château de Cranne</title>
+  <meta name="description" content="Location d'une cireuse CIR 22 – 600 bouteilles/heure. Intervention en Gironde et départements limitrophes. À partir de 500€ / jour. Contact Vincent : chateaudecranne@gmail.com – 06 86 17 56 61." />
+  <meta property="og:title" content="Location Cireuse CIR 22 – Château de Cranne" />
+  <meta property="og:description" content="600 bouteilles/heure • 500€/jour sans transport • 750€/jour avec transport • Gironde et départements limitrophes" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0e0f13;/* nuit bleutée */
+      --panel:#151922;/* panneau */
+      --muted:#9aa4b2;/* texte secondaire */
+      --brand:#8b5cf6;/* violet doux */
+      --brand-2:#4ade80;/* vert accent */
+      --text:#e7eaf0;/* texte principal */
+      --ring: rgba(139,92,246,.5);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:radial-gradient(1200px 800px at 20% -10%,rgba(139,92,246,.15),transparent),radial-gradient(1000px 700px at 110% 10%,rgba(74,222,128,.12),transparent),var(--bg);color:var(--text);font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;backdrop-filter:saturate(180%) blur(8px);background:linear-gradient(to bottom, rgba(14,15,19,.8), rgba(14,15,19,.4));border-bottom:1px solid rgba(255,255,255,.06);z-index:20}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:700}
+    .logo{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--brand),#6ee7b7);box-shadow:var(--shadow)}
+    .cta-head{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:14px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);transition:.2s ease;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+    .btn:hover{transform:translateY(-1px);border-color:rgba(255,255,255,.2)}
+    .btn.primary{background:linear-gradient(180deg,var(--brand),#6d28d9);border-color:transparent}
+    .btn.secondary{background:rgba(255,255,255,.06)}
+    .btn .pill{font-size:.85rem;color:#0b0b0f;background:#fff;border-radius:999px;padding:2px 8px}
+
+    .hero{padding:72px 0 28px}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+    .hero h1{font-size:clamp(32px,5vw,52px);line-height:1.05;margin:0 0 12px}
+    .hero p{font-size:1.1rem;color:var(--muted);margin:0 0 22px}
+    .stamp{display:inline-flex;gap:8px;align-items:center;padding:8px 12px;border-radius:999px;background:rgba(74,222,128,.12);border:1px solid rgba(74,222,128,.35);font-weight:600}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:22px;box-shadow:var(--shadow)}
+    .machine{aspect-ratio:4/3;border-radius:18px;background:linear-gradient(145deg,#1b2030,#0e1017);display:grid;place-items:center;border:1px dashed rgba(255,255,255,.12)}
+    .machine small{color:var(--muted)}
+
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:28px 0}
+    .feature{padding:18px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06)}
+    .feature h3{margin:0 0 6px;font-size:1rem}
+    .feature p{margin:0;color:var(--muted);font-size:.98rem}
+
+    .pricing{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin:12px 0 24px}
+    .price{padding:22px;border-radius:20px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+    .price h4{margin:0 0 6px;font-size:1.1rem}
+    .price .amount{font-size:2rem;font-weight:800;margin:6px 0}
+    .badge{display:inline-block;padding:4px 10px;border-radius:999px;background:rgba(139,92,246,.18);border:1px solid rgba(139,92,246,.45);font-size:.85rem}
+
+    .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+    .cta .btn{font-weight:600}
+
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .panel{padding:22px;border-radius:20px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}
+    .list{margin:0;padding-left:18px;color:var(--muted)}
+
+    .faq{margin-top:28px}
+    details{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:14px 16px}
+    details+details{margin-top:10px}
+    summary{font-weight:600;cursor:pointer}
+    details p{color:var(--muted)}
+
+    footer{margin-top:40px;padding:24px 0;border-top:1px solid rgba(255,255,255,.08);color:var(--muted);font-size:.95rem}
+
+    @media (max-width: 900px){
+      .hero-grid{grid-template-columns:1fr}
+      .features{grid-template-columns:1fr}
+      .pricing{grid-template-columns:1fr}
+      .grid-2{grid-template-columns:1fr}
+      .cta-head{justify-content:flex-start}
+    }
+      /* ---- Formulaires ---- */
+    .form{margin:26px 0 10px}
+    .field{display:flex;flex-direction:column;gap:8px}
+    .field label{font-weight:600}
+    .input, .textarea, .select{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:12px 14px;color:var(--text);outline:none}
+    .input:focus, .textarea:focus, .select:focus{border-color:var(--ring);box-shadow:0 0 0 4px rgba(139,92,246,.15)}
+    .textarea{min-height:120px;resize:vertical}
+    .grid-form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .grid-form-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .help{font-size:.9rem;color:var(--muted)}
+    .machine img{width:100%;height:100%;object-fit:cover;border-radius:18px;opacity:.95}
+  </style>
+  <script>
+    // Pré-remplir le sujet pour l'email
+    function mailto(subject){
+      const e = 'chateaudecranne@gmail.com';
+      const body = encodeURIComponent('Bonjour Vincent,\n\nJe souhaite louer la cireuse CIR 22.\n\nDates souhaitées :\nLieu d\'intervention :\nBesoin de transport : oui/non\nFourniture de cire : oui/non (à chiffrer)\n\nMerci !');
+      window.location.href = `mailto:${e}?subject=${encodeURIComponent(subject)}&body=${body}`;
+    }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Location Cireuse CIR 22",
+    "provider": {"@type":"LocalBusiness","name":"Château de Cranne"},
+    "areaServed": "Gironde et départements limitrophes",
+    "offers": [{
+      "@type": "Offer",
+      "price": "500",
+      "priceCurrency": "EUR",
+      "description": "Journée sans transport"
+    },{
+      "@type": "Offer",
+      "price": "750",
+      "priceCurrency": "EUR",
+      "description": "Journée avec transport"
+    }],
+    "brand": "CIR 22",
+    "category": "Cireuse bouteilles",
+    "hasMeasurement": {"@type":"QuantitativeValue","value":600,"unitText":"bouteilles/heure"},
+    "telephone": "+33 6 86 17 56 61",
+    "email": "chateaudecranne@gmail.com"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="brand"><div class="logo" aria-hidden="true"></div>Location Cireuse CIR 22</div>
+      <nav class="cta-head" aria-label="Contact">
+        <a class="btn secondary" href="tel:+33686175661" aria-label="Appeler Vincent"><span>📞</span> 06 86 17 56 61</a>
+        <a class="btn primary" href="mailto:chateaudecranne@gmail.com" aria-label="Écrire à Vincent"><span>✉️</span> chateaudecranne@gmail.com</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <span class="stamp">CIR 22 • 600 bouteilles/heure</span>
+          <h1>Cirez vos bouteilles rapidement, proprement, sans investissement.</h1>
+          <p>Nous louons une <strong>cireuse CIR 22</strong> performante pour vos tirages et séries limitées. <strong>Intervention en Gironde</strong> et départements limitrophes. <strong>Fourniture de la cire</strong> possible <strong>sur devis</strong>.</p>
+
+          <div class="features">
+            <div class="feature"><h3>Débit</h3><p>Jusqu’à <strong>600 btl/heure</strong> selon l’atelier et l’équipe.</p></div>
+            <div class="feature"><h3>Simple & propre</h3><p>Finition régulière, bac chauffant sécurisé, chauffe rapide.</p></div>
+            <div class="feature"><h3>Flexible</h3><p>Au <strong>château</strong> ou dans votre chai avec l’option transport.</p></div>
+          </div>
+
+          <div class="pricing">
+            <div class="price card">
+              <span class="badge">Sans transport</span>
+              <h4>Journée de location</h4>
+              <div class="amount">500€</div>
+              <p class="muted">Vous venez au <strong>Château de Cranne</strong> avec vos bouteilles.</p>
+              <div class="cta">
+                <button class="btn primary" onclick="mailto('Location CIR 22 – sans transport')">Réserver cette option</button>
+              </div>
+            </div>
+            <div class="price card">
+              <span class="badge">Avec transport</span>
+              <h4>Journée sur site</h4>
+              <div class="amount">750€</div>
+              <p class="muted">Nous nous déplaçons en <strong>Gironde</strong> et départements voisins.</p>
+              <div class="cta">
+                <button class="btn primary" onclick="mailto('Location CIR 22 – avec transport')">Demander une date</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta">
+            <a class="btn secondary" href="tel:+33686175661">📞 Appeler Vincent</a>
+            <a class="btn" href="mailto:chateaudecranne@gmail.com">✉️ Envoyer un email</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure class="machine">
+            <img src="assets/_DSC5521.jpg" alt="Cireuse CIR 22 en action – bac de cire" loading="lazy" />
+            <figcaption style="text-align:center;margin-top:8px;color:var(--muted);font-size:.95rem">Cireuse CIR 22 – photos réelles de l'équipement. Placez les fichiers dans <code>assets/</code> et gardez les noms <code>_DSC5521.jpg</code> et <code>_DSC5518.jpg</code>.</figcaption>
+          </figure>
+          <div class="grid-2" style="margin-top:10px">
+            <a href="assets/_DSC5521.jpg" target="_blank" class="panel" style="padding:8px"><img src="assets/_DSC5521.jpg" alt="CIR 22 – vue 1" style="width:100%;height:180px;object-fit:cover;border-radius:12px"/></a>
+            <a href="assets/_DSC5518.jpg" target="_blank" class="panel" style="padding:8px"><img src="assets/_DSC5518.jpg" alt="CIR 22 – vue 2" style="width:100%;height:180px;object-fit:cover;border-radius:12px"/></a>
+          </div>
+          </div>
+          <div class="grid-2" style="margin-top:14px">
+            <div class="panel">
+              <strong>Zone d’intervention</strong>
+              <ul class="list">
+                <li>Gironde (33)</li>
+                <li>Départements limitrophes sur demande</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <strong>Cire</strong>
+              <ul class="list">
+                <li>Fourniture <strong>sur devis</strong></li>
+                <li>Couleurs & quantités à préciser</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel" style="margin-top:14px">
+            <strong>Conditions</strong>
+            <ul class="list">
+              <li>Tarifs indiqués <strong>par jour</strong> (hors consommables).</li>
+              <li>Transport selon accessibilité & distance.</li>
+              <li>Facturation et assurance professionnelle.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="devis" class="card" style="margin-top:8px">
+      <h2 style="margin:0 0 12px">Demande de devis</h2>
+      <p class="help">Remplissez le formulaire ci‑dessous : nous préparons une proposition et vous recontactons rapidement.</p>
+      <form id="quote-form" class="form" onsubmit="return submitQuote(event)" action="mailto:chateaudecranne@gmail.com" method="post" enctype="text/plain">
+        <div class="grid-form">
+          <div class="field">
+            <label for="name">Nom & prénom</label>
+            <input id="name" name="Nom" class="input" required />
+          </div>
+          <div class="field">
+            <label for="company">Domaine / Entreprise</label>
+            <input id="company" name="Entreprise" class="input" />
+          </div>
+        </div>
+        <div class="grid-form">
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="Email" type="email" class="input" required />
+          </div>
+          <div class="field">
+            <label for="phone">Téléphone</label>
+            <input id="phone" name="Téléphone" class="input" placeholder="06 86 17 56 61" />
+          </div>
+        </div>
+        <div class="grid-form-3">
+          <div class="field">
+            <label for="dates">Date(s) souhaitée(s)</label>
+            <input id="dates" name="Dates" type="text" class="input" placeholder="ex. 12–13/10/2025" />
+          </div>
+          <div class="field">
+            <label for="location">Lieu d'intervention</label>
+            <input id="location" name="Lieu" class="input" placeholder="Ville, département" />
+          </div>
+          <div class="field">
+            <label for="transport">Transport</label>
+            <select id="transport" name="Transport" class="select">
+              <option value="Sans transport">Sans transport (500€/j)</option>
+              <option value="Avec transport">Avec transport (750€/j)</option>
+              <option value="À discuter">À discuter</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid-form">
+          <div class="field">
+            <label for="wax">Fourniture de la cire</label>
+            <select id="wax" name="Cire" class="select">
+              <option value="Oui, à chiffrer">Oui, à chiffrer</option>
+              <option value="Non, fourni par nos soins">Non, fourni par nos soins</option>
+              <option value="À déterminer">À déterminer</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="volume">Volume estimé</label>
+            <input id="volume" name="Volume" class="input" placeholder="ex. 3 000 bouteilles" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Précisions</label>
+          <textarea id="message" name="Message" class="textarea" placeholder="Couleurs de cire, type de bouteilles, contraintes techniques…"></textarea>
+        </div>
+        <div class="cta" style="margin-top:14px">
+          <button class="btn primary" type="submit">Envoyer la demande</button>
+          <a class="btn secondary" href="tel:+33686175661">📞 Appeler directement</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="faq">
+      <h2 style="margin:0 0 12px">Questions fréquentes</h2>
+      <details>
+        <summary>Quelle cadence puis-je attendre ?</summary>
+        <p>Jusqu’à <strong>600 bouteilles/heure</strong>, selon votre préparation (capsules, organisation de la ligne, personnel).</p>
+      </details>
+      <details>
+        <summary>Pouvez‑vous fournir la cire ?</summary>
+        <p>Oui, sur devis selon les couleurs et volumes souhaités. Indiquez vos besoins à la prise de contact.</p>
+      </details>
+      <details>
+        <summary>Vous déplacez‑vous hors Gironde ?</summary>
+        <p>Oui, dans les <strong>départements limitrophes</strong> sur demande, sous réserve de disponibilité et d’accessibilité.</p>
+      </details>
+      <details>
+        <summary>Comment réserver une date ?</summary>
+        <p>Appelez <a href="tel:+33686175661">06 86 17 56 61</a> ou écrivez à <a href="mailto:chateaudecranne@gmail.com">chateaudecranne@gmail.com</a>. Un devis et un créneau vous seront proposés rapidement.</p>
+      </details>
+    </section>
+
+    <footer class="container">
+      <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+        <div>© <span id="year"></span> Château de Cranne • Location Cireuse CIR 22</div>
+        <div>
+          <a class="btn" href="mailto:chateaudecranne@gmail.com">✉️ Contact</a>
+          <a class="btn" href="tel:+33686175661">📞 06 86 17 56 61</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script>
+    function submitQuote(e){
+      e.preventDefault();
+      const f = document.getElementById('quote-form');
+      const data = {
+        Nom: f.name.value,
+        Entreprise: f.company.value,
+        Email: f.email.value,
+        Téléphone: f.phone.value,
+        Dates: f.dates.value,
+        Lieu: f.location.value,
+        Transport: f.transport.value,
+        Cire: f.wax.value,
+        Volume: f.volume.value,
+        Message: f.message.value
+      };
+      const subject = `Demande de devis – CIR 22 (${data.Nom || 'client'})`;
+      const body = Object.entries(data).map(([k,v])=>`${k}: ${v||''}`).join("
+");
+      const mailtoUrl = `mailto:chateaudecranne@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoUrl;
+      return false;
+    }
+  </script>
+</body>
+</html>
