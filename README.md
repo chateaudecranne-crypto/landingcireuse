@@ -1,2 +1,4 @@
-<img src="assets/cireuse1.jpg" alt="Cireuse CIR 22, vue 1">
-<img src="assets/cireuse2.jpg" alt="Cireuse CIR 22, vue 2">
+mon-projet/
+  server.js        <-- Ici, à la racine !
+  package.json
+  (autres fichiers, dossiers, etc.)
